@@ -26,5 +26,5 @@ local function RHSW_fake_script()
 		    end
 	    else
         BHIndicators.TextColor3 = Color3.fromRGB(0, 255, 0)
-  end		
+		
 coroutine.wrap(RHSW_fake_script)()
