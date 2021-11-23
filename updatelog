@@ -1,1 +1,25 @@
-game.Coregui.loader.main.infogroupmain.status.Text = "updated: 11/23/2021"
+		    local Indicator = Instance.new("ScreenGui")
+            local BHIndicators = Instance.new("TextLabel")
+
+
+            Indicator.Name = "Indicator"
+            Indicator.Parent = game.CoreGui
+            Indicator.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+            BHIndicators.Name = "BHIndicators"
+            BHIndicators.Parent = Indicator
+            BHIndicators.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            BHIndicators.BackgroundTransparency = 1.000
+            BHIndicators.Position = UDim2.new(0, 0, 0.83277595, 0)
+            BHIndicators.Size = UDim2.new(0, 100, 0, 100)
+            BHIndicators.Font = Enum.Font.SourceSansBold
+            BHIndicators.Text = "BH"
+            BHIndicators.TextColor3 = Color3.fromRGB(255, 0, 0)
+            BHIndicators.TextSize = 65.000
+            BHIndicators.TextStrokeTransparency = 0.000
+            BHIndicators.TextWrapped = true
+		if UserInputService:IsKeyDown("Space") then 
+		    BHIndicators.TextColor3 = Color3.fromRGB(58, 255, 23)
+		    end
+	    else
+        BHIndicators.TextColor3 = Color3.fromRGB(0, 255, 0)		
