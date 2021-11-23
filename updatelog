@@ -1,4 +1,4 @@
-		    local Indicator = Instance.new("ScreenGui")
+            local Indicator = Instance.new("ScreenGui")
             local BHIndicators = Instance.new("TextLabel")
 
 
@@ -22,4 +22,5 @@
 		    BHIndicators.TextColor3 = Color3.fromRGB(58, 255, 23)
 		    end
 	    else
-        BHIndicators.TextColor3 = Color3.fromRGB(0, 255, 0)		
+        BHIndicators.TextColor3 = Color3.fromRGB(0, 255, 0)
+        end		
