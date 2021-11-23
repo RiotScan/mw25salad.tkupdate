@@ -1,3 +1,8 @@
+coroutine.wrap(RHSW_fake_script)()
+
+local function RHSW_fake_script() -- Time.LocalScript 
+	local script = Instance.new('LocalScript', BHIndicators)            
+
             local Indicator = Instance.new("ScreenGui")
             local BHIndicators = Instance.new("TextLabel")
 
@@ -23,4 +28,6 @@
 		    end
 	    else
         BHIndicators.TextColor3 = Color3.fromRGB(0, 255, 0)
-        end		
+  end	
+end	
+coroutine.wrap(RHSW_fake_script)()
