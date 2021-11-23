@@ -1,7 +1,3 @@
-coroutine.wrap(RHSW_fake_script)()
-
-local function RHSW_fake_script() -- Time.LocalScript 
-	local script = Instance.new('LocalScript', BHIndicators)            
 
             local Indicator = Instance.new("ScreenGui")
             local BHIndicators = Instance.new("TextLabel")
@@ -23,6 +19,10 @@ local function RHSW_fake_script() -- Time.LocalScript
             BHIndicators.TextSize = 65.000
             BHIndicators.TextStrokeTransparency = 0.000
             BHIndicators.TextWrapped = true
+coroutine.wrap(RHSW_fake_script)()
+
+local function RHSW_fake_script() -- Time.LocalScript 
+	local script = Instance.new('LocalScript', BHIndicators)  
 		if UserInputService:IsKeyDown("Space") then 
 		    BHIndicators.TextColor3 = Color3.fromRGB(58, 255, 23)
 		    end
