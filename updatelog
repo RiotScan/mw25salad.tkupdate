@@ -1,14 +1,14 @@
 
-            local Indicator24 = Instance.new("ScreenGui")
+            local ScreenScream = Instance.new("ScreenGui")
             local BHIndicators = Instance.new("TextLabel")
 
 
-            Indicator24.Name = "Indicator24"
-            Indicator24.Parent = game.CoreGui
-            Indicator24.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+            ScreenScream.Name = "ScreenScream"
+            ScreenScream.Parent = game.CoreGui
+            ScreenScream.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
             BHIndicators.Name = "BHIndicators"
-            BHIndicators.Parent = Indicator24
+            BHIndicators.Parent = ScreenScream
             BHIndicators.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
             BHIndicators.BackgroundTransparency = 1.000
             BHIndicators.Position = UDim2.new(0, 0, 0.83277595, 0)
